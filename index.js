@@ -45,7 +45,7 @@ $('.mixer').click(function(){
             mixing = false;
         },1000)
     }
-    if(mixtimes == 1){
+    if(mixtimes == 6){
         $('.stage2').fadeOut();
         fire_modal('https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/mix_modal.png','Trộn dị được gòi!','Chúc mừng Yến, sự kết hợp hoàn hảo! Sau khi đổ hỗn hợp vào khuôn nướng bánh, giờ là lúc cho hỗn hợp vào lò nướng trong khoảng 3 giây. Khoảng thời gian đó là đủ để có lớp nền xốp đẹp.');
 
