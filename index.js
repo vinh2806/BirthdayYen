@@ -48,10 +48,14 @@ $('.mixer').click(function(){
     if(mixtimes == 6){
         $('.stage2').fadeOut();
         fire_modal('https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/mix_modal.png','Trộn dị được gòi!','Chúc mừng Yến, sự kết hợp hoàn hảo! Sau khi đổ hỗn hợp vào khuôn nướng bánh, giờ là lúc cho hỗn hợp vào lò nướng trong khoảng 3 giây. Khoảng thời gian đó là đủ để có lớp nền xốp đẹp.');
-
     }
+});
+$(".chen").click(funtion(){
+$('.stage3').fadeOut();
+        fire_modal('https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/oven_modal.png','Khét nghẹt luôn','Hay quá ta! Yến là một đầu bếp giỏi. Lớp đầu tiên đã được nướng khét nghẹt :)) và trông siêu ngon. Giờ là lúc kết hợp lớp này với nhiều topping khác nhau như mứt, mứt cam, socola và nhiều cái khác nữa.');
+    
+}
 
-})
 /*
 $( ".chen" ).draggable({
     revert:true
