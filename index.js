@@ -51,11 +51,11 @@ $('.mixer').click(function(){
     }
 });
 
-$('.chen').click(function(){
+/*$('.chen').click(function(){
         $('.stage3').fadeOut();
         fire_modal('https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/oven_modal.png','Khét nghẹt luôn','Hay quá ta! Yến là một đầu bếp giỏi. Lớp đầu tiên đã được nướng khét nghẹt :)) và trông siêu ngon. Giờ là lúc kết hợp lớp này với nhiều topping khác nhau như mứt, mứt cam, socola và nhiều cái khác nữa.');
-    }
-/*$( function() {
+    }*/
+$( function() {
     $( ".chen" ).draggable();
     $( ".oven" ).droppable({
       drop: function( event, ui ) {
@@ -63,7 +63,7 @@ $('.chen').click(function(){
         fire_modal('https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/oven_modal.png','Khét nghẹt luôn','Hay quá ta! Yến là một đầu bếp giỏi. Lớp đầu tiên đã được nướng khét nghẹt :)) và trông siêu ngon. Giờ là lúc kết hợp lớp này với nhiều topping khác nhau như mứt, mứt cam, socola và nhiều cái khác nữa.');
       }
     });
-  } );*/
+  } );
 
 /*$(".chen").draggable({
     revert:true
